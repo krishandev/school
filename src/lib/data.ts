@@ -949,11 +949,11 @@ export const calendarEvents = [
     end: new Date(2024, 7, 12, 13, 45),
   },
   {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 7, 12, 14, 0),
-    end: new Date(2024, 7, 12, 14, 45),
-  },
+  title: "History",
+  allDay: false,
+  start: new Date(2024, 7, 14, 14, 0),
+  end: new Date(2024, 7, 14, 14, 45), // Should be same day: 14
+},
   {
     title: "English",
     allDay: false,
